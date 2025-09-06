@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Script → TikTok PWA</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Script → TikTok</h1>
+<textarea id="script" placeholder="Écris ton texte ici (max 1 min)"></textarea>
+<br>
+<input type="file" id="bg" accept="image/*">
+<br>
+<button id="generate">Générer Vidéo</button>
+<p id="status">Prêt</p>
+<video id="preview" controls style="width:100%; margin-top:10px;"></video>
+<script src="main.js"></script>
+</body>
+</html>
+<script src="https://unpkg.com/@ffmpeg/ffmpeg@0.12.6/dist/ffmpeg.min.js"></script>
+<script src="https://unpkg.com/@ffmpeg/ffmpeg@0.12.6/dist/ffmpeg.min.js"></script>
